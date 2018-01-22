@@ -1,0 +1,14 @@
+#places-info {
+  display: none;
+}
+
+.well {
+  width: 350px;
+  margin: auto;
+  color: #000;
+}
+
+.jumbotron {
+  color: #fff;
+  background-color: #000;
+}

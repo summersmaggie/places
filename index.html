@@ -10,33 +10,40 @@
   </head>
   <body>
     <div class="container">
-      <h1>Places You've Been</h1>
+
+      <div class="jumbotron">
+        <h1>Places You've Been</h1>
+      </div>
 
       <div class="row">
-        <div class="col-md-6">
-          <form id="new-input">
-            <div class="form-group">
-              <label for="location">Location:</label>
-              <input type="text" class="form-control" id="place">
-            </div>
+        <div class="well">
+          <div class="col-md-6">
+            <form id="new-input">
+              <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" class="form-control" id="place">
+              </div>
 
-            <div class="form-group">
-              <label for="time">Time of Year:</label>
-              <input type="text" class="form-control" id="time">
-            </div>
+              <div class="form-group">
+                <label for="time">Time of Year:</label>
+                <input type="text" class="form-control" id="time">
+              </div>
 
-            <div class="form-group">
-              <label for="advice">Recommendations:</label>
-              <input type="text" class="form-control" id="advice">
-            </div>
+              <div class="form-group">
+                <label for="advice">Recommendations:</label>
+                <input type="text" class="form-control" id="advice">
+              </div>
 
-            <button type="submit" class="btn btn-primary">Show the list!</button>
-          </form>
+              <button type="submit" class="btn btn-primary">Show the list!</button>
+            </form>
+          </div>
         </div>
 
         <div class="col-md-6">
-          <ul id="places">
-          </ul>
+          <div id="hidden_list" class="well">
+            <ul id="places">
+            </ul>
+          </div>
           <div class="well" id="hidden">
             <p>Time of Year: <span class="time"></span></p>
             <p>Recommendations: <span class="advice"></span></p>

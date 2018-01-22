@@ -16,7 +16,7 @@ $(document).ready(function() {
     var inputtedAdvice = $("input#advice").val();
 
     var newPlace = new Place(inputtedLocation, inputtedTime, inputtedAdvice);
-
+    $("#hidden_list").show();
     $("#places").show();
     $("ul#places").append("<li><span class='place'>" + newPlace.location + "</span></li>");
 

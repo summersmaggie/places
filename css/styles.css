@@ -1,11 +1,17 @@
-#places, #hidden {
+#places, #hidden, #hidden_list {
   display: none;
 }
 
+#hidden {
+  margin-top: 40px;
+}
+
 .well {
-  width: 350px;
+  width: 500px;
   margin: auto;
   color: #000;
+  border: 8px double #000;
+  padding: 30px;
 }
 
 .jumbotron {
